@@ -1,7 +1,5 @@
 import java.time.LocalTime
 
-import scala.concurrent.duration._
-
 /**
   * @author federico.bartolomei
   */
