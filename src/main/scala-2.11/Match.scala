@@ -11,12 +11,10 @@ class Match {
   }
 
   def addEvent(event: Event) = {
-    if(isValidEvent(event)) {
+    if(event.pointsScored > 0) {
       events = insertEvent(event, events)
     }
   }
-
-  def isValidEvent(event: Event) = event.pointsScored > 0
 
   /**
     * Insert an Event at the right place into a list of Events,
