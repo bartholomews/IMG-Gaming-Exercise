@@ -2,7 +2,7 @@
   *
   * @author federico.bartolomei
   */
-object Parser extends App {
+object Parser {
 
   def parseEvent(bin: Int): Event = parseEvent(bin.toBinaryString)
 
